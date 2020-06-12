@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: 'Roboto',  sans-serif;
 }
+
 header {
   background-image: url('./images/header.jpg');
   background-repeat: no-repeat;
@@ -36,15 +37,15 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 60px 0 60px;
   color: seashell;
   font-size: larger;
+  padding-left: 50px;
 
 }
 .shop{
 border-radius: 0% 0% 0% 0%;
-width: 120px;
-height: 60px;
+width: 300px;
+height: auto;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -52,7 +53,10 @@ font-family:'Roboto';
 background-color:rgba(0,0,0,0.7);
 font-size: 40px;
 font-weight: 700 !important;
-margin-bottom: 9px;
+}
+.logo{
+  width: 300px;
+  height: auto;
 }
 
 .buttongroup{
@@ -125,7 +129,7 @@ padding-right:5px;
   
   position: absolute;
   width: 100%;
-  background-color: darkgray;
+  background-color: greenyellow;
   transition: all 0.3s ease-in-out;
   opacity: 0;
   cursor: pointer;
@@ -160,27 +164,27 @@ padding-right:5px;
   width: 100%;
   max-width: 850px;
   display:flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   border-bottom: 4px solid lightgray;
   margin: 0 auto;
 }
 .product-title{
 width: 45%;
+text-align: center;
 }
-.price{
-  width: 15%;
-  border-bottom: 1px solid lightgray;
   
-}
+
 .quantity{
+  text-align: center;
   width: 30%;
-  border-bottom: 1px solid lightgray;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .total{
+  justify-content: flex-end;
+  text-align: center;
   width: 10%;
-  border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
   
@@ -189,9 +193,11 @@ width: 45%;
   width: 45%;
   display:flex;
   justify-content: space-around;
+  flex-direction: column;
   align-items: center;
   padding: 10px 0;
-  border-bottom: 1px solid lightgray;
+ 
+
 }
 .products ion-icon{
  cursor: pointer;
@@ -199,16 +205,20 @@ width: 45%;
 .products {
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .product-img{
   width: 75%;
+  
 }
 .basketTotalContainer{
   display: flex;
   justify-content: flex-end;
   width: 100%;
   padding: 10px 0;
+  border-top: 4px solid lightgray;
 }
 .basketTotalTitle {
   width: 30%;
@@ -216,22 +226,13 @@ width: 45%;
 .basketTotal{
   width: 10%;
 }
-
-.myprice{
-  display: flex;
-  flex-direction: column;
-  background-color: magenta !important;
-  border: 5px solid red;
-}
-@media(max-width: 500px) {
+@media(max-width: 680px) {
   nav h2{
     width: 100%;
     text-align: center;
     margin-bottom:10px ;
   }
-  .sm-hide{
-    display: none;
-  }
+  
   .products,
   .product-header{
     justify-content: center;
@@ -239,5 +240,88 @@ width: 45%;
   .basketTotalContainer{
     padding-right: 8%;
   }
-
+  .products {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .product-header{
+    width: 100%;
+    max-width: 850px;
+    display:none;
+    justify-content: space-around;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+ }
+ .product-title{
+  padding: 20px;
+  text-align: center;
+  }
+    
+  .quantity{
+    padding: 8px;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .total{
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid lightgray;
+  }
+  .product{
+    padding: 8px;
+    width: 45%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+.buttongroup{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav {
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  z-index:2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: seashell;
+  font-size: larger;
+padding-left: 10px;
+}
+.shop{
+border-radius: 0% 0% 0% 0%;
+width: auto;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:'Roboto';
+background-color:rgba(0,0,0,0.7);
+font-size: 40px;
+font-weight: 700 !important;
+}
+.logo{
+  width: 300px;
+  height: auto;
+}
 }

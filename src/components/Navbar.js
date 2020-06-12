@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import {connect} from 'react-redux';
 import {getNumbers} from '../actions/getAction';
 import {Link} from 'react-router-dom';
+import logo from '../images/logo.png';
 function Navbar(props) {
   console.log(props);
 
@@ -12,7 +13,7 @@ function Navbar(props) {
         <header>
      <div className="overlay"></div>
      <nav>
-       <h2 className="shop">Shop</h2>
+       <h2 className="shop"><img className="logo" src={logo}/></h2>
        <ul className="buttongroup">
          <li className="Home"><Link className="button" to="/">Home</Link></li>
          <li className="About"><Link className="button" to="/about">About</Link></li>

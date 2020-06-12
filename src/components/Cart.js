@@ -40,8 +40,8 @@ function Cart({basketProps, productQuantity, clearProduct}) {
               <img src={productImages(product)} />
              <span className="sm-hide">{product.name}</span>
               </div>
-              <div classname="price myprice sm-hide">${product.price},00</div>
-              <div className="quantity">
+              <div classname="price sm-hide">${product.price},00</div>
+              <div className=" quantity">
                 <ion-icon onClick={()=> productQuantity('decrease', product.tagName)} className="decrease" name="arrow-back-circle-outline"></ion-icon>
                       <span>{product.numbers}</span>
                 <ion-icon onClick={()=> productQuantity('increase', product.tagName)} className="decrease" name="arrow-forward-circle-outline"></ion-icon>      
