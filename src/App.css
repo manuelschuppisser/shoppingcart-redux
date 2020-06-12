@@ -144,7 +144,7 @@ padding-right:5px;
 }
 
 .container-products {
-  max-width: 650px;
+  max-width: 850px;
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 50px;
@@ -158,7 +158,7 @@ padding-right:5px;
 }
 .product-header{
   width: 100%;
-  max-width: 650px;
+  max-width: 850px;
   display:flex;
   justify-content: flex-start;
   border-bottom: 4px solid lightgray;
@@ -170,6 +170,7 @@ width: 45%;
 .price{
   width: 15%;
   border-bottom: 1px solid lightgray;
+  
 }
 .quantity{
   width: 30%;
@@ -182,6 +183,7 @@ width: 45%;
   border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
+  
 }
 .product{
   width: 45%;
@@ -214,6 +216,13 @@ width: 45%;
 .basketTotal{
   width: 10%;
 }
+
+.myprice{
+  display: flex;
+  flex-direction: column;
+  background-color: magenta !important;
+  border: 5px solid red;
+}
 @media(max-width: 500px) {
   nav h2{
     width: 100%;
@@ -230,4 +239,5 @@ width: 45%;
   .basketTotalContainer{
     padding-right: 8%;
   }
+
 }
