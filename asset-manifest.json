@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.17c2a9eb.chunk.css",
-    "main.js": "/static/js/main.b32c9a3d.chunk.js",
-    "main.js.map": "/static/js/main.b32c9a3d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.49b17446.js",
-    "runtime-main.js.map": "/static/js/runtime-main.49b17446.js.map",
-    "static/js/2.f84d3f35.chunk.js": "/static/js/2.f84d3f35.chunk.js",
-    "static/js/2.f84d3f35.chunk.js.map": "/static/js/2.f84d3f35.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.dcea4544ecc00924b1bf3df17dc45937.js": "/precache-manifest.dcea4544ecc00924b1bf3df17dc45937.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.17c2a9eb.chunk.css.map": "/static/css/main.17c2a9eb.chunk.css.map",
-    "static/js/2.f84d3f35.chunk.js.LICENSE.txt": "/static/js/2.f84d3f35.chunk.js.LICENSE.txt",
-    "static/media/VanGogh1886.jpg": "/static/media/VanGogh1886.e0748f46.jpg",
-    "static/media/VanGogh1887.jpg": "/static/media/VanGogh1887.e3550fc3.jpg",
-    "static/media/VanGogh1888.jpg": "/static/media/VanGogh1888.1db24c0c.jpg",
-    "static/media/VanGogh1889.jpg": "/static/media/VanGogh1889.68b510e0.jpg",
-    "static/media/App.css": "/static/media/header.b9c44b5a.jpg",
-    "static/media/logo.png": "/static/media/logo.e2556776.png"
+    "main.css": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/css/main.6353b66b.chunk.css",
+    "main.js": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/js/main.d02e4c96.chunk.js",
+    "main.js.map": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/js/main.d02e4c96.chunk.js.map",
+    "runtime-main.js": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/js/runtime-main.97d993ff.js",
+    "runtime-main.js.map": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/js/runtime-main.97d993ff.js.map",
+    "static/js/2.b4973927.chunk.js": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/js/2.b4973927.chunk.js",
+    "static/js/2.b4973927.chunk.js.map": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/js/2.b4973927.chunk.js.map",
+    "index.html": "/https//manuelschuppiusser.github.io/shoppingcart-redux/index.html",
+    "precache-manifest.dd2404b1ebfc070ae06135506dc9c114.js": "/https//manuelschuppiusser.github.io/shoppingcart-redux/precache-manifest.dd2404b1ebfc070ae06135506dc9c114.js",
+    "service-worker.js": "/https//manuelschuppiusser.github.io/shoppingcart-redux/service-worker.js",
+    "static/css/main.6353b66b.chunk.css.map": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/css/main.6353b66b.chunk.css.map",
+    "static/js/2.b4973927.chunk.js.LICENSE.txt": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/js/2.b4973927.chunk.js.LICENSE.txt",
+    "static/media/VanGogh1886.jpg": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/media/VanGogh1886.e0748f46.jpg",
+    "static/media/VanGogh1887.jpg": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/media/VanGogh1887.e3550fc3.jpg",
+    "static/media/VanGogh1888.jpg": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/media/VanGogh1888.1db24c0c.jpg",
+    "static/media/VanGogh1889.jpg": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/media/VanGogh1889.68b510e0.jpg",
+    "static/media/App.css": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/media/header.b9c44b5a.jpg",
+    "static/media/logo.png": "/https//manuelschuppiusser.github.io/shoppingcart-redux/static/media/logo.e2556776.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.49b17446.js",
-    "static/js/2.f84d3f35.chunk.js",
-    "static/css/main.17c2a9eb.chunk.css",
-    "static/js/main.b32c9a3d.chunk.js"
+    "static/js/runtime-main.97d993ff.js",
+    "static/js/2.b4973927.chunk.js",
+    "static/css/main.6353b66b.chunk.css",
+    "static/js/main.d02e4c96.chunk.js"
   ]
 }
