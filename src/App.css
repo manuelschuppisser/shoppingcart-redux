@@ -323,5 +323,6 @@ font-weight: 700 !important;
 .logo{
   width: 300px;
   height: auto;
+  font-style: normal;
 }
 }
